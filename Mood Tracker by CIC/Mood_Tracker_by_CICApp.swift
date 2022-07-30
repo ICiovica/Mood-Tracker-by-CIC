@@ -11,7 +11,7 @@ import SwiftUI
 struct Mood_Tracker_by_CICApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

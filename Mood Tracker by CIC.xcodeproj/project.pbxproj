@@ -8,17 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		B570213F28951C10009A8F78 /* Mood_Tracker_by_CICApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570213E28951C10009A8F78 /* Mood_Tracker_by_CICApp.swift */; };
-		B570214128951C10009A8F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570214028951C10009A8F78 /* ContentView.swift */; };
+		B570214128951C10009A8F78 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570214028951C10009A8F78 /* MainView.swift */; };
 		B570214328951C12009A8F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B570214228951C12009A8F78 /* Assets.xcassets */; };
 		B570214628951C12009A8F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B570214528951C12009A8F78 /* Preview Assets.xcassets */; };
+		B570215428951D0C009A8F78 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570214D28951D0C009A8F78 /* house.riv */; };
+		B570215528951D0C009A8F78 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570214E28951D0C009A8F78 /* confetti.riv */; };
+		B570215628951D0C009A8F78 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570214F28951D0C009A8F78 /* check.riv */; };
+		B570215728951D0C009A8F78 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570215028951D0C009A8F78 /* menu_button.riv */; };
+		B570215828951D0C009A8F78 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570215128951D0C009A8F78 /* shapes.riv */; };
+		B570215928951D0C009A8F78 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570215228951D0C009A8F78 /* button.riv */; };
+		B570215A28951D0C009A8F78 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = B570215328951D0C009A8F78 /* icons.riv */; };
+		B570215D28951D6A009A8F78 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = B570215C28951D6A009A8F78 /* RiveRuntime */; };
+		B570215F28951D86009A8F78 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570215E28951D86009A8F78 /* OnboardingView.swift */; };
+		B570216428951F71009A8F78 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B570216128951F71009A8F78 /* Inter-Regular.ttf */; };
+		B570216528951F71009A8F78 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B570216228951F71009A8F78 /* Poppins-Bold.ttf */; };
+		B570216628951F71009A8F78 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B570216328951F71009A8F78 /* Inter-SemiBold.ttf */; };
+		B570216928951FF5009A8F78 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570216828951FF5009A8F78 /* CustomFont.swift */; };
+		B570216B289521A6009A8F78 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570216A289521A6009A8F78 /* TabBarView.swift */; };
+		B570216D289534FB009A8F78 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570216C289534FB009A8F78 /* TopView.swift */; };
+		B570216F28953A48009A8F78 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570216E28953A48009A8F78 /* Modifiers.swift */; };
+		B57021712895470F009A8F78 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57021702895470E009A8F78 /* SideMenuView.swift */; };
+		B5702174289548D0009A8F78 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5702173289548D0009A8F78 /* Extensions.swift */; };
+		B5C4083A289556540053273D /* SideMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C40839289556540053273D /* SideMenuRow.swift */; };
+		B5C4083C289577860053273D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4083B289577860053273D /* SignInView.swift */; };
+		B5C4083E289578180053273D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4083D289578180053273D /* CustomTextField.swift */; };
+		B5C40840289578330053273D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4083F289578330053273D /* CustomButton.swift */; };
+		B5C408432895C1EA0053273D /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C408422895C1EA0053273D /* TabBarItems.swift */; };
+		B5C408452895C27B0053273D /* SideMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C408442895C27B0053273D /* SideMenuItems.swift */; };
+		B5C408472895C4650053273D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C408462895C4650053273D /* ContentView.swift */; };
+		B5C408492895D6810053273D /* SideMenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C408482895D6810053273D /* SideMenuItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B570213B28951C10009A8F78 /* Mood Tracker by CIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood Tracker by CIC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B570213E28951C10009A8F78 /* Mood_Tracker_by_CICApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Tracker_by_CICApp.swift; sourceTree = "<group>"; };
-		B570214028951C10009A8F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B570214028951C10009A8F78 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B570214228951C12009A8F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B570214528951C12009A8F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B570214D28951D0C009A8F78 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		B570214E28951D0C009A8F78 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		B570214F28951D0C009A8F78 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		B570215028951D0C009A8F78 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		B570215128951D0C009A8F78 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		B570215228951D0C009A8F78 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		B570215328951D0C009A8F78 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		B570215E28951D86009A8F78 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B570216128951F71009A8F78 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		B570216228951F71009A8F78 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B570216328951F71009A8F78 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		B570216728951F8C009A8F78 /* Mood-Tracker-by-CIC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mood-Tracker-by-CIC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B570216828951FF5009A8F78 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		B570216A289521A6009A8F78 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B570216C289534FB009A8F78 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		B570216E28953A48009A8F78 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		B57021702895470E009A8F78 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		B5702173289548D0009A8F78 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5C40839289556540053273D /* SideMenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRow.swift; sourceTree = "<group>"; };
+		B5C4083B289577860053273D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B5C4083D289578180053273D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B5C4083F289578330053273D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B5C408422895C1EA0053273D /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
+		B5C408442895C27B0053273D /* SideMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItems.swift; sourceTree = "<group>"; };
+		B5C408462895C4650053273D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5C408482895D6810053273D /* SideMenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B570215D28951D6A009A8F78 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +104,15 @@
 		B570213D28951C10009A8F78 /* Mood Tracker by CIC */ = {
 			isa = PBXGroup;
 			children = (
+				B570216728951F8C009A8F78 /* Mood-Tracker-by-CIC-Info.plist */,
 				B570213E28951C10009A8F78 /* Mood_Tracker_by_CICApp.swift */,
-				B570214028951C10009A8F78 /* ContentView.swift */,
+				B570214028951C10009A8F78 /* MainView.swift */,
+				B5702175289548EC009A8F78 /* Views */,
+				B5C408412895C1CF0053273D /* Model */,
+				B5702172289548C1009A8F78 /* Styles */,
 				B570214228951C12009A8F78 /* Assets.xcassets */,
+				B570216028951F71009A8F78 /* Fonts */,
+				B570214C28951D0C009A8F78 /* RiveAssets */,
 				B570214428951C12009A8F78 /* Preview Content */,
 			);
 			path = "Mood Tracker by CIC";
@@ -65,6 +124,82 @@
 				B570214528951C12009A8F78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B570214C28951D0C009A8F78 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				B570214D28951D0C009A8F78 /* house.riv */,
+				B570214E28951D0C009A8F78 /* confetti.riv */,
+				B570214F28951D0C009A8F78 /* check.riv */,
+				B570215028951D0C009A8F78 /* menu_button.riv */,
+				B570215128951D0C009A8F78 /* shapes.riv */,
+				B570215228951D0C009A8F78 /* button.riv */,
+				B570215328951D0C009A8F78 /* icons.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		B570216028951F71009A8F78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B570216128951F71009A8F78 /* Inter-Regular.ttf */,
+				B570216228951F71009A8F78 /* Poppins-Bold.ttf */,
+				B570216328951F71009A8F78 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B5702172289548C1009A8F78 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B570216828951FF5009A8F78 /* CustomFont.swift */,
+				B5C4083F289578330053273D /* CustomButton.swift */,
+				B5C4083D289578180053273D /* CustomTextField.swift */,
+				B570216E28953A48009A8F78 /* Modifiers.swift */,
+				B5702173289548D0009A8F78 /* Extensions.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B5702175289548EC009A8F78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4084B2895D6D20053273D /* Top & Tab */,
+				B5C4084A2895D6B30053273D /* Side Menu */,
+				B570215E28951D86009A8F78 /* OnboardingView.swift */,
+				B5C4083B289577860053273D /* SignInView.swift */,
+				B5C408462895C4650053273D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5C408412895C1CF0053273D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C408422895C1EA0053273D /* TabBarItems.swift */,
+				B5C408442895C27B0053273D /* SideMenuItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5C4084A2895D6B30053273D /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B57021702895470E009A8F78 /* SideMenuView.swift */,
+				B5C408482895D6810053273D /* SideMenuItemsView.swift */,
+				B5C40839289556540053273D /* SideMenuRow.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		B5C4084B2895D6D20053273D /* Top & Tab */ = {
+			isa = PBXGroup;
+			children = (
+				B570216C289534FB009A8F78 /* TopView.swift */,
+				B570216A289521A6009A8F78 /* TabBarView.swift */,
+			);
+			path = "Top & Tab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +218,9 @@
 			dependencies = (
 			);
 			name = "Mood Tracker by CIC";
+			packageProductDependencies = (
+				B570215C28951D6A009A8F78 /* RiveRuntime */,
+			);
 			productName = "Mood Tracker by CIC";
 			productReference = B570213B28951C10009A8F78 /* Mood Tracker by CIC.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +249,9 @@
 				Base,
 			);
 			mainGroup = B570213228951C10009A8F78;
+			packageReferences = (
+				B570215B28951D6A009A8F78 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = B570213C28951C10009A8F78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +266,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B570216628951F71009A8F78 /* Inter-SemiBold.ttf in Resources */,
+				B570215828951D0C009A8F78 /* shapes.riv in Resources */,
+				B570215628951D0C009A8F78 /* check.riv in Resources */,
 				B570214628951C12009A8F78 /* Preview Assets.xcassets in Resources */,
+				B570215728951D0C009A8F78 /* menu_button.riv in Resources */,
+				B570215428951D0C009A8F78 /* house.riv in Resources */,
+				B570215928951D0C009A8F78 /* button.riv in Resources */,
+				B570216428951F71009A8F78 /* Inter-Regular.ttf in Resources */,
+				B570216528951F71009A8F78 /* Poppins-Bold.ttf in Resources */,
 				B570214328951C12009A8F78 /* Assets.xcassets in Resources */,
+				B570215528951D0C009A8F78 /* confetti.riv in Resources */,
+				B570215A28951D0C009A8F78 /* icons.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +288,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B570214128951C10009A8F78 /* ContentView.swift in Sources */,
+				B5C408452895C27B0053273D /* SideMenuItems.swift in Sources */,
+				B5C40840289578330053273D /* CustomButton.swift in Sources */,
+				B5C408472895C4650053273D /* ContentView.swift in Sources */,
+				B5C408492895D6810053273D /* SideMenuItemsView.swift in Sources */,
+				B570215F28951D86009A8F78 /* OnboardingView.swift in Sources */,
+				B5702174289548D0009A8F78 /* Extensions.swift in Sources */,
+				B5C4083A289556540053273D /* SideMenuRow.swift in Sources */,
+				B570216928951FF5009A8F78 /* CustomFont.swift in Sources */,
+				B57021712895470F009A8F78 /* SideMenuView.swift in Sources */,
+				B570216F28953A48009A8F78 /* Modifiers.swift in Sources */,
+				B570214128951C10009A8F78 /* MainView.swift in Sources */,
+				B5C408432895C1EA0053273D /* TabBarItems.swift in Sources */,
+				B570216B289521A6009A8F78 /* TabBarView.swift in Sources */,
+				B5C4083E289578180053273D /* CustomTextField.swift in Sources */,
+				B570216D289534FB009A8F78 /* TopView.swift in Sources */,
+				B5C4083C289577860053273D /* SignInView.swift in Sources */,
 				B570213F28951C10009A8F78 /* Mood_Tracker_by_CICApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +436,7 @@
 				DEVELOPMENT_TEAM = 63XWRVA4JU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mood-Tracker-by-CIC-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +466,7 @@
 				DEVELOPMENT_TEAM = 63XWRVA4JU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mood-Tracker-by-CIC-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +507,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B570215B28951D6A009A8F78 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B570215C28951D6A009A8F78 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B570215B28951D6A009A8F78 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B570213328951C10009A8F78 /* Project object */;
 }
