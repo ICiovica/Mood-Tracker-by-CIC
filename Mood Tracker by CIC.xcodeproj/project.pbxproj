@@ -165,11 +165,9 @@
 		B5702175289548EC009A8F78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B5C4084B2895D6D20053273D /* Top & Tab */,
-				B5C4084A2895D6B30053273D /* Side Menu */,
-				B570215E28951D86009A8F78 /* OnboardingView.swift */,
-				B5C4083B289577860053273D /* SignInView.swift */,
-				B5C408462895C4650053273D /* ContentView.swift */,
+				B5C4084D2895DAAD0053273D /* Content & Background */,
+				B5C4084C2895DA980053273D /* Left & Right */,
+				B5C4084B2895D6D20053273D /* Top & Bottom */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,13 +191,31 @@
 			path = "Side Menu";
 			sourceTree = "<group>";
 		};
-		B5C4084B2895D6D20053273D /* Top & Tab */ = {
+		B5C4084B2895D6D20053273D /* Top & Bottom */ = {
 			isa = PBXGroup;
 			children = (
 				B570216C289534FB009A8F78 /* TopView.swift */,
 				B570216A289521A6009A8F78 /* TabBarView.swift */,
 			);
-			path = "Top & Tab";
+			path = "Top & Bottom";
+			sourceTree = "<group>";
+		};
+		B5C4084C2895DA980053273D /* Left & Right */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4083B289577860053273D /* SignInView.swift */,
+				B5C4084A2895D6B30053273D /* Side Menu */,
+			);
+			path = "Left & Right";
+			sourceTree = "<group>";
+		};
+		B5C4084D2895DAAD0053273D /* Content & Background */ = {
+			isa = PBXGroup;
+			children = (
+				B5C408462895C4650053273D /* ContentView.swift */,
+				B570215E28951D86009A8F78 /* OnboardingView.swift */,
+			);
+			path = "Content & Background";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

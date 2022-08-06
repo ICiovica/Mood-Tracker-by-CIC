@@ -14,12 +14,10 @@ struct MainView: View {
     var body: some View {
         ZStack {
             OnboardingView()
+            SideMenuView(leftSideIsOpen: $leftSideIsOpen)
+            SignInView(rightSideIsOpen: $rightSideIsOpen)
             
             TopView(leftSideIsOpen: $leftSideIsOpen, rightSideIsOpen: $rightSideIsOpen)
-            
-            SideMenuView(leftSideIsOpen: $leftSideIsOpen)
-            
-            SignInView(rightSideIsOpen: $rightSideIsOpen)
             
             ContentView()
             

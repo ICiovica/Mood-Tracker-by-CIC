@@ -44,11 +44,6 @@ struct SideMenuView: View {
         }
         .foregroundColor(.white)
         .background(Color(hex: "17203A"))
-        .mask(RoundedRectangle(cornerRadius: 32, style: .continuous))
-        .opacity(leftSideIsOpen ? 1 : 0)
-        .offset(x: leftSideIsOpen ? 0 : -300)
-        .rotation3DEffect(.degrees(leftSideIsOpen ? 0 : 30), axis: (x: 0, y: -1, z: 0))
-        .padding(.horizontal, 32)
-        .padding(.top)
+        .leftAndRightEffectModifier(isOpen: leftSideIsOpen, to: -1)
     }
 }

@@ -21,8 +21,17 @@ extension View {
         self
             .mask(RoundedRectangle(cornerRadius: 24, style: .continuous))
             .offset(x: isOpen ? to * (UIScreen.main.bounds.width + 96) : 0)
-            .scaleEffect(isOpen ? 0.9 : 1)
-            .rotation3DEffect(.degrees(isOpen ? 32 : 0), axis: (x: 0, y: -1, z: 0))
+            .rotation3DEffect(.degrees(isOpen ? 32 : 0), axis: (x: 0, y: 0, z: 0))
+    }
+    
+    func leftAndRightEffectModifier(isOpen: Bool, to: CGFloat) -> some View {
+        self
+        .mask(RoundedRectangle(cornerRadius: 32, style: .continuous))
+        .opacity(isOpen ? 1 : 0)
+        .offset(x: isOpen ? 0 : to * 300)
+        .rotation3DEffect(.degrees(isOpen ? 0 : 32), axis: (x: 0, y: 0, z: 0))
+        .padding(.horizontal, 32)
+        .padding(.top)
     }
     
     func onTapWithAnimation(action: @escaping () -> Void) -> some View {
